@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Try out something !")
+	bytes, _ := fmt.Println("Hello World !")
+
+	fmt.Println(bytes)
 
 	foo()
 
@@ -11,9 +13,9 @@ func main() {
 		fmt.Print("Iteration ", i)
 
 		if i%2 == 0 {
-			fmt.Print(" - Even iteration !")
+			fmt.Print(" - Even iteration")
 		} else {
-			fmt.Print(" - Odd iteration !")
+			fmt.Print(" - Odd iteration")
 		}
 
 		fmt.Println()

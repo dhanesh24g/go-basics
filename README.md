@@ -1,2 +1,3 @@
-# initial-trials
-Basic Go codes
+# go-basics
+Basic Go codes.
+Some learnings & some exercises. 

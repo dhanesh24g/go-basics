@@ -6,6 +6,8 @@ func main() {
 
 	// Declare slice
 	slc := []int{21, 3, 4, 64, 2}
+	// Declare array
+	// slc := [5]int{21, 3, 4, 64, 2}
 
 	fmt.Printf("%v \n", slc)
 	fmt.Printf("Slice Length : %v \n\n", len(slc))
